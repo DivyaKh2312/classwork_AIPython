@@ -51,3 +51,10 @@ print("a >= 1:", y1)
 # elements that are less than or equal to 1
 y2 = a <= 1
 print("a <= 1:", y2)
+
+Matmul =a@b
+Matmul1 =np.matmul(a,b)
+Matmul2 = np.dot(a,b)
+print("Matmul is:", Matmul)
+print("Matmul1 is:", Matmul1)
+print("Matmul2 is:", Matmul2)
