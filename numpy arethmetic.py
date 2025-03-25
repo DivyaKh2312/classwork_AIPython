@@ -58,3 +58,8 @@ Matmul2 = np.dot(a,b)
 print("Matmul is:", Matmul)
 print("Matmul1 is:", Matmul1)
 print("Matmul2 is:", Matmul2)
+
+n = np.arange(1, 13)
+reshape = np.reshape(n, (3, 4))
+rows,cols = np.shape(reshape)
+print(rows, cols)
