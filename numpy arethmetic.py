@@ -63,3 +63,9 @@ n = np.arange(1, 13)
 reshape = np.reshape(n, (3, 4))
 rows,cols = np.shape(reshape)
 print(rows, cols)
+
+n1 = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+n2 = n1.reshape(4,3)
+print(n2)
+print("print of seprate rows",n2[:,])
+
