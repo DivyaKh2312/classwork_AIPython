@@ -22,7 +22,7 @@ print("converted Data:")
 print(f"heights (in cm):" ,height_cm)
 print(f"weights (in kg):", weight_kg)
 
-# Plot histogram of heights in cm
+
 plt.plot(height_cm, weight_kg ,color='blue', marker='o', linestyle='-', label='Height (cm) Histogram')
 plt.xlabel('height (cm)')
 plt.ylabel('frequency')
